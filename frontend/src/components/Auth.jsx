@@ -66,6 +66,7 @@ const Auth = () => {
                 onClick={() => {
                   setPassword("");
                   setEmail("");
+                  setLoading(false)
                   setActiveForm("login");
                 }}
               >
@@ -101,6 +102,7 @@ const Auth = () => {
                 onClick={() => {
                   setPassword("");
                   setEmail("");
+                  setLoading(false)
                   setActiveForm("register");
                 }}
               >
