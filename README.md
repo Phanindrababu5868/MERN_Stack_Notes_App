@@ -87,7 +87,7 @@ The application should now be running on `http://localhost:3000`.
 - POST /api/auth/register: Register a new user
 - POST /api/auth/login: Login a user
 
-### Authentication
+### Notes
 
 - GET /api/notes: Get all notes for the authenticated user
 - POST /api/notes: Create a new note
